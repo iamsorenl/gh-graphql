@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gh-graphql"
+version = "0.1.0"
+description = "Tiny stdlib-only GitHub GraphQL client with retries, rate-limit sleeping and resumable pagination"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Soren Larsen"}]
+
+[tool.setuptools]
+packages = ["gh_graphql"]
